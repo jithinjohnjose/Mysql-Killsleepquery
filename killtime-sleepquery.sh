@@ -13,7 +13,7 @@ MYSQL=/usr/bin/mysql
 
 # Credentials for a MySQL user 
 USERNAME=root
-PASSWORD=drRdhkr46
+PASSWORD=*****
 HOST=localhost
 PORT=3306
 
