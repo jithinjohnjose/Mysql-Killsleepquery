@@ -1,13 +1,14 @@
-##What is MYSQL sleep query?##
+#What is MYSQL sleep query?
 
 When a database connection is created, a session is also created on the database server simultaneously, but if that connection and session is not closed properly, then the query goes into sleep mode after the wait time gets over. As per MySQL reference manual, “Sleep is the thread waiting for the client to send a new statement to it”.So, sleep query is the query that waits for the timeout to terminate. That means query which takes time to execute and terminate goes in the sleep status.
 
 sleep query in MySQL database 
 Effects of a large number of MYSQL query – sleep :
 
-Increased consumption of CPU and memory resources (RAM, cache and processor).
-Slowing down of server.
-Increased downtime for websites -hackers try to slow website using sleep SQL injections
+*Increased consumption of CPU and memory resources (RAM, cache and processor).
+*Slowing down of server.
+*Increased downtime for websites -hackers try to slow website using sleep SQL injections
+
 #Why MySQL Sleep Processes take place?
 
 Connections waiting for a new MYSQL query, better known as the sleep processes, occur if in coding persistent connection to the database is used or if the database connection is not closed properly.
