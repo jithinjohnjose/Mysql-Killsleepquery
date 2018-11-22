@@ -17,3 +17,5 @@ Two small shell scripts are added for killing sleep processes without restarting
 
 * To Kill all sleep process - killall-sleepquery.sh
 * To kill all process with sleep time > 60 SEC and user root - killtime-sleepquery.sh
+
+Note : To avoid connectivity issues for particular application, create a seperate mysql user and give access to database.
