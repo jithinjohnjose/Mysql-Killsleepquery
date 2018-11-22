@@ -15,5 +15,5 @@ Connections waiting for a new MYSQL query, better known as the sleep processes, 
 
 Two small shell scripts are added for killing sleep processes without restarting MySQL
 
-* 1) To Kill all sleep process - killall-slowquery.sh
-* 2) To kill all process with sleep time > 60 SEC and user root - killtime-slowquey.sh
+* To Kill all sleep process - killall-sleepquery.sh
+* To kill all process with sleep time > 60 SEC and user root - killtime-sleepquery.sh
