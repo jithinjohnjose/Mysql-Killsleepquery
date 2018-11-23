@@ -1,4 +1,4 @@
-# What is MYSQL sleep query?
+# What is MySQL sleep query?
 
 When a database connection is created, a session is also created on the database server simultaneously, but if that connection and session is not closed properly, then the query goes into sleep mode after the wait time gets over. As per MySQL reference manual, “Sleep is the thread waiting for the client to send a new statement to it”.So, sleep query is the query that waits for the timeout to terminate. That means query which takes time to execute and terminate goes in the sleep status.
 
